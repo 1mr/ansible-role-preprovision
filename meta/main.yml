@@ -1,0 +1,30 @@
+---
+galaxy_info:
+  role_name: preprovision
+  author: Stas Stavnichuk
+  description: preprovision
+  license: BSD
+  min_ansible_version: 1.4
+  platforms:
+  - name: Debian
+    versions:
+    - jessie
+    - stretch
+galaxy_tags:
+  - system
+  - preprovision
+dependencies:
+  - { role: 1mr.hosts, tags: hosts }
+  - { role: 1mr.hostname, tags: hostname }
+  - { role: 1mr.sources-list, tags: sources-list }
+  - { role: 1mr.openssh, tags: openssh }
+  - { role: 1mr.motd, tags: motd }
+  - { role: 1mr.skel, tags: skel }
+  - { role: 1mr.sudo, tags: sudo }
+  - { role: 1mr.common, tags: common }
+  - { role: 1mr.backup, tags: backup }
+  - { role: 1mr.unattended, tags: unattended }
+  - { role: 1mr.fail2ban, tags: fail2ban }
+  - { role: 1mr.firewall, tags: firewall }
+  - { role: 1mr.postfix, tags: postfix }
+  - { role: 1mr.ntp, tags: ntp }
