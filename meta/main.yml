@@ -16,7 +16,7 @@ galaxy_tags:
 dependencies:
   - { role: 1mr.hosts, tags: hosts }
   - { role: 1mr.hostname, tags: hostname }
-  - { role: 1mr.sources-list, tags: sources-list }
+  - { role: 1mr.sources_list, tags: sources-list }
   - { role: 1mr.openssh, tags: openssh }
   - { role: 1mr.motd, tags: motd }
   - { role: 1mr.skel, tags: skel }
