@@ -27,4 +27,5 @@ dependencies:
   - { role: 1mr.fail2ban, tags: fail2ban }
   - { role: 1mr.firewall, tags: firewall }
   - { role: 1mr.postfix, tags: postfix }
+  - { role: 1mr.timezone, tags: timezone }
   - { role: 1mr.ntp, tags: ntp }
